@@ -41,7 +41,7 @@ jobs:
       # Commit and push Display.svg to LeetCode-Stats
       - name: Commit Display.svg to LeetCode-Stats
         run: |
-          cd LeetCode-Stats
+          cd LeetCode-StatsSync
           git config user.name "Devika Automation"
           git config user.email "devikamatta7@gmail.com"
           git add Display.svg
